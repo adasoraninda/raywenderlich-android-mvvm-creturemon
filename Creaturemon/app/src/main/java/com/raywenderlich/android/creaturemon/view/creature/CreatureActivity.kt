@@ -31,12 +31,13 @@
 package com.raywenderlich.android.creaturemon.view.creature
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import androidx.appcompat.app.AppCompatActivity
 import com.raywenderlich.android.creaturemon.R
 import com.raywenderlich.android.creaturemon.model.AttributeStore
 import com.raywenderlich.android.creaturemon.model.AttributeValue
