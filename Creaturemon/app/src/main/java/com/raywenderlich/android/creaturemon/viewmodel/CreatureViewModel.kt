@@ -28,7 +28,11 @@ class CreatureViewModel(
             strength = strength,
             endurance = endurance
         )
-        creature = generator.generateCreature(attributes, name, drawable)
+        creature = generator.generateCreature(
+            attributes = attributes,
+            name = name,
+            drawable = drawable
+        )
         creatureLiveData.postValue(creature)
     }
 
