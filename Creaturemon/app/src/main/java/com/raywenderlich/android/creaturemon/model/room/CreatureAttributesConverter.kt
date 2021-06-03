@@ -38,7 +38,12 @@ class CreatureAttributesConverter {
   @TypeConverter
   fun fromCreatureAttributes(attributes: CreatureAttributes?): String? {
     if (attributes != null) {
-      return String.format(Locale.US, "%d,%d,%d", attributes.intelligence, attributes.strength, attributes.endurance)
+      return String.format(
+        Locale.US, "%d,%d,%d",
+        attributes.intelligence,
+        attributes.strength,
+        attributes.endurance
+      )
     }
     return null
   }
